@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Hurricane Alpha",
+        "start_date": 1567267200000,
+        "end_date": 1567459200000,
+        "category": 4,
+        "wind_speed": 130
+    },
+    {
+        "name": "Hurricane Beta",
+        "start_date": 1573036800000,
+        "end_date": 1573228800000,
+        "category": 3,
+        "wind_speed": 115
+    },
+    {
+        "name": "Hurricane Gamma",
+        "start_date": 1580956800000,
+        "end_date": 1581148800000,
+        "category": 2,
+        "wind_speed": 105
+    },
+    {
+        "name": "Hurricane Delta",
+        "start_date": 1588588800000,
+        "end_date": 1588867200000,
+        "category": 4,
+        "wind_speed": 140
+    },
+    {
+        "name": "Hurricane Epsilon",
+        "start_date": 1602465600000,
+        "end_date": 1602657600000,
+        "category": 3,
+        "wind_speed": 125
+    },
+    {
+        "name": "Hurricane Zeta",
+        "start_date": 1603953600000,
+        "end_date": 1604145600000,
+        "category": 2,
+        "wind_speed": 110
+    },
+    {
+        "name": "Hurricane Eta",
+        "start_date": 1605024000000,
+        "end_date": 1605216000000,
+        "category": 4,
+        "wind_speed": 135
+    },
+    {
+        "name": "Hurricane Theta",
+        "start_date": 1605844800000,
+        "end_date": 1606104000000,
+        "category": 3,
+        "wind_speed": 120
+    },
+    {
+        "name": "Hurricane Iota",
+        "start_date": 1606176000000,
+        "end_date": 1606435200000,
+        "category": 5,
+        "wind_speed": 160
+    },
+    {
+        "name": "Hurricane Kappa",
+        "start_date": 1612041600000,
+        "end_date": 1612233600000,
+        "category": 2,
+        "wind_speed": 110
+    },
+    {
+        "name": "Hurricane Lambda",
+        "start_date": 1614624000000,
+        "end_date": 1614816000000,
+        "category": 3,
+        "wind_speed": 125
+    },
+    {
+        "name": "Hurricane Mu",
+        "start_date": 1621512000000,
+        "end_date": 1621867200000,
+        "category": 4,
+        "wind_speed": 140
+    },
+    {
+        "name": "Hurricane Nu",
+        "start_date": 1622126400000,
+        "end_date": 1622318400000,
+        "category": 3,
+        "wind_speed": 120
+    },
+    {
+        "name": "Hurricane Xi",
+        "start_date": 1623336000000,
+        "end_date": 1623528000000,
+        "category": 2,
+        "wind_speed": 110
+    },
+    {
+        "name": "Hurricane Omicron",
+        "start_date": 1628697600000,
+        "end_date": 1628889600000,
+        "category": 4,
+        "wind_speed": 135
+    },
+    {
+        "name": "Hurricane Phi",
+        "start_date": 1629542400000,
+        "end_date": 1629734400000,
+        "category": 3,
+        "wind_speed": 120
+    },
+    {
+        "name": "Hurricane Pi",
+        "start_date": 1629543400000,
+        "end_date": 1629735400000,
+        "category": 2,
+        "wind_speed": 100
+    },
+    {
+        "name": "Hurricane Rho",
+        "start_date": 1630752000000,
+        "end_date": 1631030400000,
+        "category": 2,
+        "wind_speed": 110
+    },
+    {
+        "name": "Hurricane Sigma",
+        "start_date": 1632264000000,
+        "end_date": 1632619200000,
+        "category": 3,
+        "wind_speed": 125
+    },
+    {
+        "name": "Hurricane Tau",
+        "start_date": 1633449600000,
+        "end_date": 1633641600000,
+        "category": 4,
+        "wind_speed": 140
+    },
+    {
+        "name": "Hurricane Upsilon",
+        "start_date": 1635091200000,
+        "end_date": 1635283200000,
+        "category": 3,
+        "wind_speed": 125
+    },
+    {
+        "name": "Hurricane Phi",
+        "start_date": 1635753600000,
+        "end_date": 1635945600000,
+        "category": 2,
+        "wind_speed": 110
+    },
+    {
+        "name": "Hurricane Chi",
+        "start_date": 1636108800000,
+        "end_date": 1636368000000,
+        "category": 4,
+        "wind_speed": 135
+    },
+    {
+        "name": "Hurricane Psi",
+        "start_date": 1637222400000,
+        "end_date": 1637414400000,
+        "category": 3,
+        "wind_speed": 125
+    }
+]

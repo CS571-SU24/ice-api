@@ -1,0 +1,65 @@
+{
+    "name": "Classic Spaghetti Carbonara",
+    "author": "OpenAI",
+    "img": {
+        "location": "https://raw.githubusercontent.com/CS571-SU24/ice-api-static-content/main/pasta.png",
+        "description": "A plate of creamy spaghetti carbonara"
+    },
+    "keywords": ["creamy", "rich", "traditional", "comforting"],
+    "reviews": [
+        {
+            "txt": "Authentic taste with perfect creamy texture, feels like Italy on a plate!",
+            "rating": 5
+        },
+        {
+            "txt": "Love the balance of flavors, especially the crispy bacon bits.",
+            "rating": 4
+        },
+        {
+            "txt": "A family favorite! So easy to make and yet so delicious and comforting.",
+            "rating": 5
+        },
+        {
+            "txt": "Simple ingredients, yet the result is so luxurious and satisfying.",
+            "rating": 5
+        }
+    ],
+    "ingredients": {
+        "spaghetti": {
+            "amount": 12,
+            "unit": "oz"
+        },
+        "large eggs": {
+            "amount": 4,
+            "misc": "preferably free-range or organic"
+        },
+        "grated Parmesan cheese": {
+            "amount": 1,
+            "unit": "cup"
+        },
+        "guanciale or pancetta": {
+            "amount": 8,
+            "unit": "oz",
+            "misc": "diced"
+        },
+        "garlic": {
+            "amount": 2,
+            "misc": "cloves, minced"
+        },
+        "salt": {
+            "amount": 1,
+            "unit": "teaspoon"
+        },
+        "freshly ground black pepper": {
+            "amount": 1,
+            "unit": "teaspoon"
+        }
+    },
+    "recipe": [
+        "Cook Pasta: In a large pot of boiling salted water, cook spaghetti until al dente. Reserve 1 cup of pasta water and then drain.",
+        "Prepare Sauce: While the pasta is cooking, whisk together the eggs, Parmesan, and black pepper in a bowl.",
+        "Cook Guanciale: In a large skillet, cook the guanciale or pancetta over medium heat until crispy. Add minced garlic and cook for about 1 minute.",
+        "Combine: Remove skillet from heat. Add the drained spaghetti and toss well. Quickly whisk in the egg mixture, adding pasta water as needed to make it creamy.",
+        "Serve: Serve immediately, garnished with additional grated Parmesan and black pepper."
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Classic Margherita Pizza",
+    "author": "OpenAI",
+    "img": {
+        "location": "https://raw.githubusercontent.com/CS571-SU24/ice-api-static-content/main/pizza.png",
+        "description": "A mouth-watering Margherita Pizza!"
+    },
+    "keywords": ["Italian", "traditional", "simple", "delicious"],
+    "reviews": [
+        {
+            "txt": "An authentic taste of Italy - the perfect balance of flavors!",
+            "rating": 5
+        },
+        {
+            "txt": "Simple ingredients, but incredibly delicious. A true classic done right.",
+            "rating": 5
+        },
+        {
+            "txt": "The fresh basil and mozzarella make all the difference. Absolutely loved it!",
+            "rating": 4
+        },
+        {
+            "txt": "Easy to make and tastes better than restaurant pizza!",
+            "rating": 5
+        }
+    ],
+    "ingredients": {
+        "pizza dough": {
+            "amount": 1,
+            "unit": "lb"
+        },
+        "mozzarella cheese": {
+            "amount": 8,
+            "unit": "oz",
+            "misc": "freshly sliced"
+        },
+        "tomato sauce": {
+            "amount": 1,
+            "unit": "cup"
+        },
+        "fresh basil leaves": {
+            "amount": 10
+        },
+        "extra virgin olive oil": {
+            "amount": 2,
+            "unit": "tablespoon"
+        },
+        "salt": {
+            "amount": 0.5,
+            "unit": "teaspoon"
+        },
+        "ground black pepper": {
+            "amount": 0.25,
+            "unit": "teaspoon"
+        }
+    },
+    "recipe": [
+        "Prepare the Base: Preheat your oven to 475°F (245°C). On a floured surface, roll out the pizza dough to your desired thickness and place it on a pizza stone or a baking sheet.",
+        "Add Toppings: Spread the tomato sauce evenly over the dough. Arrange the mozzarella slices on top and sprinkle with salt and black pepper.",
+        "Bake: Drizzle the pizza with olive oil and bake in the preheated oven for about 10-15 minutes, or until the crust is golden and the cheese is bubbly.",
+        "Finish with Basil: Once out of the oven, immediately top with fresh basil leaves.",
+        "Serve: Allow the pizza to cool for a few minutes before slicing and serving."
+    ]
+}

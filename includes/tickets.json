@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Email Access Issue",
+        "description": "Cannot access email from mobile device.",
+        "author": "Jane Doe",
+        "type": "Network Issue",
+        "daysOld": 23,
+        "priority": "LOW"
+    },
+    {
+        "name": "VPN Connection Failure",
+        "description": "VPN disconnects frequently during use.",
+        "author": "John Smith",
+        "type": "Network Issue",
+        "daysOld": 10,
+        "priority": "LOW"
+    },
+    {
+        "name": "Password Reset Request",
+        "description": "Unable to reset password via self-service portal.",
+        "author": "Emily Johnson",
+        "type": "Security Issue",
+        "daysOld": 27,
+        "priority": "HIGH"
+    },
+    {
+        "name": "Software Installation",
+        "description": "Need assistance installing Adobe Creative Suite.",
+        "author": "Mike Brown",
+        "type": "Software Issue",
+        "daysOld": 10,
+        "priority": "LOW"
+    },
+    {
+        "name": "Printer Not Printing",
+        "description": "Printer connected but not printing documents.",
+        "author": "Sarah Wilson",
+        "type": "Hardware Issue",
+        "daysOld": 6,
+        "priority": "LOW"
+    },
+    {
+        "name": "Laptop Performance Issue",
+        "description": "Laptop running slow and frequently freezing.",
+        "author": "Chris Davis",
+        "type": "Hardware Issue",
+        "daysOld": 27,
+        "priority": "HIGH"
+    },
+    {
+        "name": "Lost Device",
+        "description": "Company phone lost during business trip.",
+        "author": "Jessica Taylor",
+        "type": "Hardware Issue",
+        "daysOld": 0,
+        "priority": "LOW"
+    },
+    {
+        "name": "Access to Shared Folder",
+        "description": "Requesting access to the marketing shared drive.",
+        "author": "William Moore",
+        "type": "Security Issue",
+        "daysOld": 28,
+        "priority": "MEDIUM"
+    },
+    {
+        "name": "Email Quarantine",
+        "description": "Legitimate emails being marked as spam.",
+        "author": "Olivia Martin",
+        "type": "Miscellaneous",
+        "daysOld": 5,
+        "priority": "MEDIUM"
+    },
+    {
+        "name": "Hardware Upgrade Request",
+        "description": "Request for a new laptop as the current one is outdated.",
+        "author": "Liam Jackson",
+        "type": "Hardware Issue",
+        "daysOld": 3,
+        "priority": "HIGH"
+    },
+    {
+        "name": "Slow Internet Connection",
+        "description": "Internet connection is slower than usual.",
+        "author": "Sophia Harris",
+        "type": "Network Issue",
+        "daysOld": 14,
+        "priority": "MEDIUM"
+    },
+    {
+        "name": "New Employee Setup",
+        "description": "Need to setup workstation for a new employee.",
+        "author": "Benjamin Clark",
+        "type": "Software Issue",
+        "daysOld": 13,
+        "priority": "MEDIUM"
+    },
+    {
+        "name": "Meeting Room Tech Support",
+        "description": "Projector not connecting to laptop in meeting room 5.",
+        "author": "Amelia Lewis",
+        "type": "Miscellaneous",
+        "daysOld": 23,
+        "priority": "HIGH"
+    },
+    {
+        "name": "Account Lockout",
+        "description": "User account locked out after entering wrong password multiple times.",
+        "author": "Logan Walker",
+        "type": "Security Issue",
+        "daysOld": 15,
+        "priority": "MEDIUM"
+    },
+    {
+        "name": "Mobile App Crash",
+        "description": "Company mobile app crashes on startup.",
+        "author": "Ava Hall",
+        "type": "Software Issue",
+        "daysOld": 30,
+        "priority": "HIGH"
+    },
+    {
+        "name": "Website Down",
+        "description": "Internal website is down and not accessible.",
+        "author": "Mason Young",
+        "type": "Miscellaneous",
+        "daysOld": 25,
+        "priority": "MEDIUM"
+    },
+    {
+        "name": "Network Latency",
+        "description": "Experiencing high network latency when accessing cloud applications.",
+        "author": "Isabella King",
+        "type": "Network Issue",
+        "daysOld": 18,
+        "priority": "MEDIUM"
+    },
+    {
+        "name": "Security Incident",
+        "description": "Suspicious email received that may be a phishing attempt.",
+        "author": "Noah Wright",
+        "type": "Security Issue",
+        "daysOld": 12,
+        "priority": "LOW"
+    },
+    {
+        "name": "Data Recovery",
+        "description": "Accidentally deleted files from the network drive.",
+        "author": "Sophia Harris",
+        "type": "Miscellaneous",
+        "daysOld": 14,
+        "priority": "LOW"
+    },
+    {
+        "name": "Incorrect Software Version",
+        "description": "The software version installed is not compatible with current projects.",
+        "author": "Ethan Martinez",
+        "type": "Software Issue",
+        "daysOld": 7,
+        "priority": "HIGH"
+    }
+]
