@@ -26,6 +26,8 @@ import { CS571WhoAmIRoute } from './routes/whoami-route';
 import { CS571SoupRoute } from './routes/soup-route';
 import { CS571SaladRoute } from './routes/salad-route';
 import { CS571BreadsticksRoute } from './routes/breadsticks-route';
+import { CS571RecipesRoute } from './routes/recipes-route';
+import { CS571AllRecipesRoute } from './routes/all-recipes';
 
 console.log("Welcome to ICE API!");
 
@@ -83,6 +85,8 @@ const mascot = JSON.parse(fs.readFileSync('includes/mascot.json').toString())
 const mascotMsgs = JSON.parse(fs.readFileSync('includes/mascot-messages.json').toString())
 
 appBundle.router.addRoutes([
+  new CS571RecipesRoute(),
+  new CS571AllRecipesRoute([chili, pasta, pizza, soup, salad, breadsticks]),
   new CS571ChiliRoute(chili),
   new CS571PastaRoute(pasta),
   new CS571PizzaRoute(pizza),
