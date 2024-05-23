@@ -1,0 +1,91 @@
+{
+    "name": "Mediterranean Chickpea Salad",
+    "author": "OpenAI",
+    "img": {
+        "location": "https://raw.githubusercontent.com/CS571-SU24/ice-api-static-content/main/salad.png",
+        "description": "A vibrant and fresh Mediterranean Chickpea Salad."
+    },
+    "keywords": ["Mediterranean", "healthy", "quick", "delicious"],
+    "reviews": [
+        {
+            "txt": "A refreshing and hearty salad, perfect for any meal!",
+            "rating": 5
+        },
+        {
+            "txt": "Packed with flavors and so easy to make. Loved it!",
+            "rating": 5
+        },
+        {
+            "txt": "A wonderful combination of fresh ingredients. My family enjoyed it.",
+            "rating": 4
+        },
+        {
+            "txt": "Healthy and delicious. A great addition to my meal prep!",
+            "rating": 5
+        }
+    ],
+    "ingredients": {
+        "chickpeas": {
+            "amount": 1,
+            "unit": "15 oz can",
+            "misc": "drained and rinsed"
+        },
+        "cucumber": {
+            "amount": 1,
+            "unit": "large",
+            "misc": "diced"
+        },
+        "cherry tomatoes": {
+            "amount": 1.5,
+            "unit": "cups",
+            "misc": "halved"
+        },
+        "red onion": {
+            "amount": 0.5,
+            "misc": "thinly sliced"
+        },
+        "kalamata olives": {
+            "amount": 0.5,
+            "unit": "cup",
+            "misc": "pitted and sliced"
+        },
+        "feta cheese": {
+            "amount": 0.5,
+            "unit": "cup",
+            "misc": "crumbled"
+        },
+        "fresh parsley": {
+            "amount": 0.25,
+            "unit": "cup",
+            "misc": "chopped"
+        },
+        "extra virgin olive oil": {
+            "amount": 3,
+            "unit": "tablespoons"
+        },
+        "lemon juice": {
+            "amount": 2,
+            "unit": "tablespoons"
+        },
+        "dried oregano": {
+            "amount": 1,
+            "unit": "teaspoon"
+        },
+        "salt": {
+            "amount": 0.5,
+            "unit": "teaspoon"
+        },
+        "black pepper": {
+            "amount": 0.25,
+            "unit": "teaspoon"
+        }
+    },
+    "recipe": [
+        "Prepare the Vegetables: In a large bowl, combine the diced cucumber, halved cherry tomatoes, thinly sliced red onion, and sliced kalamata olives.",
+        "Add the Chickpeas: Add the drained and rinsed chickpeas to the bowl with the vegetables.",
+        "Add the Cheese: Sprinkle the crumbled feta cheese over the salad.",
+        "Mix the Dressing: In a small bowl, whisk together the extra virgin olive oil, lemon juice, dried oregano, salt, and black pepper.",
+        "Toss the Salad: Pour the dressing over the salad and toss gently to combine all ingredients.",
+        "Serve: Garnish with chopped fresh parsley before serving. Enjoy!"
+    ]
+}

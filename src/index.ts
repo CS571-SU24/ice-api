@@ -23,6 +23,9 @@ import { CS571LogoutRoute } from './routes/logout-route';
 import { CS571MascotRoute } from './routes/mascout-route';
 import { CS571MascotMessagesRoute } from './routes/mascout-messages-route';
 import { CS571WhoAmIRoute } from './routes/whoami-route';
+import { CS571SoupRoute } from './routes/soup-route';
+import { CS571SaladRoute } from './routes/salad-route';
+import { CS571BreadsticksRoute } from './routes/breadsticks-route';
 
 console.log("Welcome to ICE API!");
 
@@ -56,6 +59,9 @@ db.init();
 const chili = JSON.parse(fs.readFileSync('includes/chili.json').toString())
 const pasta = JSON.parse(fs.readFileSync('includes/pasta.json').toString())
 const pizza = JSON.parse(fs.readFileSync('includes/pizza.json').toString())
+const soup = JSON.parse(fs.readFileSync('includes/soup.json').toString())
+const salad = JSON.parse(fs.readFileSync('includes/salad.json').toString())
+const breadsticks = JSON.parse(fs.readFileSync('includes/breadsticks.json').toString())
 const hurr = JSON.parse(fs.readFileSync('includes/hurr.json').toString()).map((h: any) => {
   return {
     ...h,
@@ -80,6 +86,9 @@ appBundle.router.addRoutes([
   new CS571ChiliRoute(chili),
   new CS571PastaRoute(pasta),
   new CS571PizzaRoute(pizza),
+  new CS571SoupRoute(soup),
+  new CS571SaladRoute(salad),
+  new CS571BreadsticksRoute(breadsticks),
   new CS571HurricanesRoute(hurr),
   new CS571TicketsRoute(tix),
   new CS571GetCommentsRoute(db),

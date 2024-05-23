@@ -1,0 +1,83 @@
+{
+    "name": "Garlic Parmesan Breadsticks",
+    "author": "OpenAI",
+    "img": {
+        "location": "https://raw.githubusercontent.com/CS571-SU24/ice-api-static-content/main/breadsticks.png",
+        "description": "Delicious Garlic Parmesan Breadsticks"
+    },
+    "keywords": ["Italian", "appetizer", "bread", "garlic"],
+    "reviews": [
+        {
+            "txt": "These breadsticks are amazing - perfectly soft and flavorful!",
+            "rating": 5
+        },
+        {
+            "txt": "Easy to make and taste just like the ones from a restaurant.",
+            "rating": 5
+        },
+        {
+            "txt": "Just go to Little Caesars instead.",
+            "rating": 1
+        },
+        {
+            "txt": "A family favorite! We can't get enough of these.",
+            "rating": 5
+        }
+    ],
+    "ingredients": {
+        "flour": {
+            "amount": 2.5,
+            "unit": "cups"
+        },
+        "active dry yeast": {
+            "amount": 1,
+            "unit": "packet",
+            "misc": "about 2 1/4 teaspoons"
+        },
+        "sugar": {
+            "amount": 1,
+            "unit": "tablespoon"
+        },
+        "salt": {
+            "amount": 1,
+            "unit": "teaspoon"
+        },
+        "warm water": {
+            "amount": 1,
+            "unit": "cup",
+            "misc": "about 110°F"
+        },
+        "olive oil": {
+            "amount": 2,
+            "unit": "tablespoons"
+        },
+        "garlic powder": {
+            "amount": 1,
+            "unit": "teaspoon"
+        },
+        "unsalted butter": {
+            "amount": 3,
+            "unit": "tablespoons",
+            "misc": "melted"
+        },
+        "grated Parmesan cheese": {
+            "amount": 0.25,
+            "unit": "cup"
+        },
+        "dried parsley": {
+            "amount": 1,
+            "unit": "teaspoon"
+        }
+    },
+    "recipe": [
+        "Prepare the Dough: In a large mixing bowl, combine the warm water, sugar, and yeast. Let sit for 5-10 minutes until frothy.",
+        "Mix Ingredients: Add the olive oil, salt, and 2 cups of flour to the yeast mixture. Mix until a dough forms, adding more flour as needed.",
+        "Knead the Dough: Turn the dough onto a floured surface and knead for about 5 minutes, until smooth and elastic.",
+        "Let it Rise: Place the dough in a lightly oiled bowl, cover with a damp towel, and let it rise in a warm place for about 1 hour, or until doubled in size.",
+        "Shape the Breadsticks: Preheat your oven to 400°F (200°C). Punch down the dough and divide it into 12 equal pieces. Roll each piece into a 6-inch log and place on a baking sheet lined with parchment paper.",
+        "Prepare the Topping: Mix the melted butter with garlic powder. Brush the breadsticks with half of the garlic butter mixture.",
+        "Bake: Bake in the preheated oven for 15-20 minutes, or until golden brown.",
+        "Add Final Touches: Remove from the oven and immediately brush with the remaining garlic butter. Sprinkle with grated Parmesan cheese and dried parsley.",
+        "Serve: Allow the breadsticks to cool slightly before serving. Enjoy!"
+    ]
+}
