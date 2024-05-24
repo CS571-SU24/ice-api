@@ -63,14 +63,6 @@ const pizza = JSON.parse(fs.readFileSync('includes/pizza.json').toString())
 const soup = JSON.parse(fs.readFileSync('includes/soup.json').toString())
 const salad = JSON.parse(fs.readFileSync('includes/salad.json').toString())
 const breadsticks = JSON.parse(fs.readFileSync('includes/breadsticks.json').toString())
-const hurr = JSON.parse(fs.readFileSync('includes/hurr.json').toString()).map((h: any) => {
-  return {
-    ...h,
-    start_date: h.start_date + Math.floor(Math.random()* 500000),
-    end_date: h.end_date + Math.floor(Math.random()* 500000) ,
-    id: crypto.createHash('sha256').update(h.name + String(h.start_date) + String(h.end_date) + String(h.category) + String(h.wind_speed)).digest('hex').substring(0, 28)
-  }
-})
 
 const tix = JSON.parse(fs.readFileSync('includes/tickets.json').toString()).map((t: any) => new Ticket(
   t.name,
