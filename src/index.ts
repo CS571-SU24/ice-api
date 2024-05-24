@@ -8,7 +8,6 @@ import { CS571Initializer } from '@cs571/su24-api-framework'
 import { CS571ChiliRoute } from './routes/chili-route';
 import { CS571PizzaRoute } from './routes/pizza-route';
 import { CS571PastaRoute } from './routes/pasta-route';
-import { CS571HurricanesRoute } from './routes/hurricanes-route';
 import { CS571TicketsRoute } from './routes/tickets-route';
 import { Ticket } from './model/ticket';
 import CS571IcePublicConfig from './config/public-config';
@@ -93,7 +92,6 @@ appBundle.router.addRoutes([
   new CS571SoupRoute(soup),
   new CS571SaladRoute(salad),
   new CS571BreadsticksRoute(breadsticks),
-  new CS571HurricanesRoute(hurr),
   new CS571TicketsRoute(tix),
   new CS571GetCommentsRoute(db),
   new CS571CreateCommentRoute(db, ta, appBundle.auth),
