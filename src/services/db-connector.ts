@@ -22,7 +22,11 @@ export class CS571IceDbConnector {
             {
                 host: this.config.SECRET_CONFIG.SQL_CONN_ADDR,
                 port: this.config.SECRET_CONFIG.SQL_CONN_PORT,
-                dialect: 'mysql'
+                dialect: 'mysql',
+                retry: {
+                    max: Infinity,
+                    backoffBase: 5000
+                }
             }
         );
     }
@@ -43,7 +47,7 @@ export class CS571IceDbConnector {
                 allowNull: false
             },
             badger_id: {
-                type: DataTypes.STRING(71), // bid_(fa_)? + 64 chars
+                type: DataTypes.STRING(68), // bid_ + 64 chars
                 allowNull: false
             },
             comment: {
