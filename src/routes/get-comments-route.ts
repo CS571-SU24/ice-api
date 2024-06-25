@@ -16,8 +16,18 @@ export class CS571GetCommentsRoute implements CS571Route {
 
     public addRoute(app: Express): void {
         app.get(CS571GetCommentsRoute.ROUTE_NAME, async (req, res) => {
+            const num = req.query?.num as string;
             const comms = await this.connector.getComments();
-            res.status(200).send(comms)
+            if (num) {
+                try {
+                    const numnum = parseInt(num);
+                    res.status(200).send(comms.slice(0, numnum));
+                } catch (e) {
+                    res.status(200).send(comms);
+                }
+            } else {
+                res.status(200).send(comms);
+            }
         })
     }
 
